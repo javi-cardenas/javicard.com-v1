@@ -1,3 +1,36 @@
+body {
+    font-family: Cormorant, serif;
+}
+
 h1 {
-    color: blue;
+    display: inline-block;
+    font-weight: 300;
+    margin: 0 32px 0 0;
+}
+
+.main {
+    display: inline-block;
+}
+
+.main li {
+    display: inline-block;
+}
+
+.main a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 8px;
+}
+
+.main ul {
+    padding: 0;
+}
+
+.navbar {
+    margin: 32px;
+}
+
+a.active {
+    border-bottom: 1px solid black;
 }
