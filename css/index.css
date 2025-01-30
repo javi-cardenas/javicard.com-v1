@@ -1,36 +1,62 @@
+/* General Styles */
 body {
-    font-family: Cormorant, serif;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-h1 {
-    display: inline-block;
-    font-weight: 300;
-    margin: 0 32px 0 0;
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 
-.main {
-    display: inline-block;
-}
-
-.main li {
-    display: inline-block;
-}
-
-.main a {
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-    margin: 0 8px;
-}
-
-.main ul {
+nav ul {
+    list-style: none;
     padding: 0;
 }
 
-.navbar {
-    margin: 32px;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-a.active {
-    border-bottom: 1px solid black;
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        width: 95%;
+    }
 }
